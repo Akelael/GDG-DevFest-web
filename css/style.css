@@ -90,12 +90,12 @@ header {
 
 .logo-header {
     float: left;
-    width: 409px;
-    height: 100px;
+    width: 408px;
+    height: 128px;
     margin: 8px 0 0 0;
     padding: 0;
-    background: url(../img/devfestsur.png) 0 0 no-repeat;
-    background-size: 400px 80px;
+    background: url(../img/logos/devfestbcn.png) 0 0 no-repeat;
+    background-size: 400px 128px;
 }
 
 .logo-header a {
@@ -475,8 +475,8 @@ footer {
 
 .footer-menu ul li a.logo-footer {
     height: 80px;
-    background: url(../img/devfestsur.png) 0 0 no-repeat;
-    background-size: 400px 70px;
+    background: url(../img/logos/devfestbcn.png) 0 0 no-repeat;
+    background-size: 400px 128px;
     width:inherit;
     text-indent: -1000em;
     cursor: pointer;
@@ -711,9 +711,9 @@ h2.day:nth-child(3) {
 /*** Media for Desktop ***/
 @media screen and (min-width: 769px) {
     .logo-header {
-        background-size: 400px 80px;
+        background-size: 400px 128px;
         width: 409px;
-        height: 100px;
+        height: 128px;
     }
     .title{
         text-align: left;
@@ -778,7 +778,7 @@ h2.day:nth-child(3) {
     }
     .footer-menu ul li a.logo-footer {
         height: 80px;
-        background-size: 400px 70px;
+        background-size: 400px 128px;
     }
     .tickets>h2{
         text-align: left;
@@ -792,9 +792,9 @@ h2.day:nth-child(3) {
         font-size: 1.5em;
     }
     .logo-header {
-        background-size: 300px 60px;
+        background-size: 300px 96px;
         width: 309px;
-        height: 80px;
+        height: 96px;
     }
     .title{
         font-size: 2.5em;
@@ -860,7 +860,7 @@ h2.day:nth-child(3) {
     }
     .footer-menu ul li a.logo-footer {
         height: 70px;
-        background-size: 300px 60px;
+        background-size: 300px 96px;
     }
     .tickets>h2{
         text-align: center;
@@ -941,7 +941,7 @@ h2.day:nth-child(3) {
     }
     .footer-menu ul li a.logo-footer {
         height: 60px;
-        background-size: 250px 50px;
+        background-size: 250px 80px;
     }
 }
 
