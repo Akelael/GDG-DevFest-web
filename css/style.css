@@ -63,6 +63,10 @@ a:hover {
     color: #f7c53d;
 }
 
+.color-bronze{
+    color: #451d08;
+}
+
 .color-grey{
     color: #555555;
 }
@@ -91,7 +95,7 @@ header {
 .logo-header {
     float: left;
     width: 408px;
-    height: 128px;
+    height: 65px;
     margin: 8px 0 0 0;
     padding: 0;
     background: url(../img/logos/devfestbcn.png) 0 0 no-repeat;
@@ -281,7 +285,7 @@ header {
 .organizer-inside {
     width: 1050px;
     max-width: 100%;
-    min-height: 400px;
+    min-height: 450px;
     height: 100%;
     margin: 0 auto;
     padding: 0 1%;
@@ -294,12 +298,12 @@ header {
 .organizer ul li {
     display:block;
     float:left;
-    width: 50%;
+    width: 25%;
 }
 
 .organizer ul li img {
     margin: 15px 0 0 2%;
-    width: 445px;
+    width: 120px;
     height:auto;
 }
 
@@ -346,19 +350,23 @@ header {
 .sponsor-inside .sponsor-zone{
     width: 100%;
 }
+
 .sponsor-type p{
     font-size: 1.3em;
 }
 .sponsor-type ul{
-    margin: 0;
-    padding: 0;
     list-style: none;
+    width: 100%;
 }
 .sponsor-type ul li{
-    display: inline-block;
-    margin: 0 auto;
-    padding: .5em;
-	list-style:none;
+    display:block;
+    float:left;
+    width: 33.333333%;
+    min-height: 160px;
+}
+
+.sponsor-type ul li img{
+    background: #ffffff;
 }
 
 /* Call4papers card */
@@ -456,7 +464,7 @@ footer {
 
 .footer-menu ul {
     list-style: none;
-    width:433px;
+    width:400px;
 }
 
 .footer-menu ul li {
@@ -474,9 +482,9 @@ footer {
 }
 
 .footer-menu ul li a.logo-footer {
-    height: 80px;
+    height: 64px;
     background: url(../img/logos/devfestbcn.png) 0 0 no-repeat;
-    background-size: 400px 128px;
+    background-size: 400px 64px;
     width:inherit;
     text-indent: -1000em;
     cursor: pointer;
@@ -711,9 +719,9 @@ h2.day:nth-child(3) {
 /*** Media for Desktop ***/
 @media screen and (min-width: 769px) {
     .logo-header {
-        background-size: 400px 128px;
-        width: 409px;
-        height: 128px;
+        background-size: 600px 90px;
+        width: 609px;
+        height: 95px;
     }
     .title{
         text-align: left;
@@ -751,7 +759,7 @@ h2.day:nth-child(3) {
         font-size: 2.25em;
     }
     .organizer ul li {
-        width: 50%;
+        width: 20%;
         float:left;
     }
 
@@ -778,7 +786,7 @@ h2.day:nth-child(3) {
     }
     .footer-menu ul li a.logo-footer {
         height: 80px;
-        background-size: 400px 128px;
+        background-size: 400px 60px;
     }
     .tickets>h2{
         text-align: left;
@@ -835,7 +843,7 @@ h2.day:nth-child(3) {
         font-size: 1.15em;
     }
     .organizer ul li {
-        width: 90%;
+        width: 50%;
         float:none;
     }
     .footer-inside>div{
@@ -908,7 +916,7 @@ h2.day:nth-child(3) {
         font-size: 1em;
     }
     .organizer ul li {
-        width: 70%;
+        width: 50%;
     }
 
     .data-inside {
@@ -941,7 +949,7 @@ h2.day:nth-child(3) {
     }
     .footer-menu ul li a.logo-footer {
         height: 60px;
-        background-size: 250px 80px;
+        background-size: 250px 50px;
     }
 }
 
